@@ -1,0 +1,18 @@
+[project]
+name = "raha-reproduction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "prettytable>=3.18.0",
+    "raha>=1.26",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
